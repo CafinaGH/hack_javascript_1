@@ -8,7 +8,12 @@
  */
 let str = "fooziman";
 let result = [];
-
+i = 0;
+while (i < str.length) {
+    result.push(str[i]);
+    console.log(result);
+    i++;
+}
 
 //export result
 module.exports = result;

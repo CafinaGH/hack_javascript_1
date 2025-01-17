@@ -6,7 +6,12 @@
  * output => [7,5,3,1]
  */
 let result = [];
-
+let i=7
+while (i>0) {
+    result.push(i);
+    console.log(result);
+    i-=2;
+}
 
 //export result
 module.exports = result;

@@ -6,6 +6,10 @@
  * output => [5,4,3,2,1]
  */
 let result = [];
+for (let i = 5; i>0; i--) {
+    result.push(i)
+    console.log(result);
+}
 
 
 //export result

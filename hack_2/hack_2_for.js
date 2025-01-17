@@ -6,7 +6,9 @@
  * output => [1,2,3,4,5]
  */
 let result = [];
-
+for (let i = 1; i < 6; i++) {
+    result.push(i)
+}
 
 //export result
 module.exports = result;
